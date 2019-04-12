@@ -39,9 +39,8 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
-import android.os.Build;
-import androidx.core.view.ViewCompat;
-import androidx.appcompat.widget.AppCompatSeekBar;
+import android.support.v4.view.ViewCompat;
+import android.support.v7.widget.AppCompatSeekBar;
 import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
@@ -51,6 +50,7 @@ import android.widget.ProgressBar;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+
 
 public class VerticalSeekBar extends AppCompatSeekBar {
     public static final int ROTATION_ANGLE_CW_90 = 90;

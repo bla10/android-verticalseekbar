@@ -16,7 +16,7 @@
 package com.h6ah4i.android.example.verticalseekbar;
 
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
